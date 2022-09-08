@@ -42,7 +42,10 @@
         {
             "operatingsystem": "Ubuntu",
             "operatingsystemrelease": [
-                "16.04"
+                "16.04",
+                "18.04",
+                "20.04",
+                "22.04"
             ]
         },
         {
@@ -62,7 +65,7 @@
     "requirements": [
         {
             "name": "puppet",
-            "version_requirement": ">= 4.8.0 < 7.0.0"
+            "version_requirement": ">= 4.8.0 < 8.0.0"
         }
     ]
 }
