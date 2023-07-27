@@ -43,7 +43,7 @@ class opendkim(
     hash_algorithms   => Optional[String],
     publickey         => String,
     publickeyextended => Optional[String],
-    privatekey        => Variant[String,Deferred],
+    privatekey        => Variant[String],
     signingdomains    => Array[String],
   }]]                       $keys                 = $opendkim::params::keys,
 
