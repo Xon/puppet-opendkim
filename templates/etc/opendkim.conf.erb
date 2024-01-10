@@ -117,6 +117,10 @@ MaximumSignedBytes <%= @maximum_signed_bytes %>
 TrustAnchorFile        <%= @trustanchorfile %>
 
 <% end -%>
+<% if @signheaders -%>
+
+SignHeaders          <%= @signheaders.join(',') %>
+<% end -%>
 <% if @senderheaders -%>
 
 SenderHeaders          <%= @senderheaders.join(',') %>
